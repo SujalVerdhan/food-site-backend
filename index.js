@@ -8,7 +8,7 @@ const bodyParser = require("body-parser")
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use((req,res,next)=>{
-    res.setHeader("Access-Control-Allow-Origin","https://food-site-frontend.onrender.com"),
+    res.setHeader("Access-Control-Allow-Origin","https://food-site-frontend-1.onrender.com"),
     res.header(
         "Access-Control-Allow-Headers",
         "Origin,X-Requested-With, Content-Type, Accept "
